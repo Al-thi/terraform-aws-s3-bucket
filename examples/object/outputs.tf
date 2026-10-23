@@ -1,6 +1,6 @@
 # S3 object
 output "s3_object_id" {
-  description = "The key of S3 object"
+  description = "The S3 object ID"
   value       = module.object.s3_object_id
 }
 
