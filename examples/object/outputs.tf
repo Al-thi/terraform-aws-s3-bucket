@@ -4,6 +4,11 @@ output "s3_object_id" {
   value       = module.object.s3_object_id
 }
 
+output "s3_object_key" {
+  description = "The S3 object key"
+  value       = module.object.s3_object_key
+}
+
 output "s3_object_etag" {
   description = "The ETag generated for the object (an MD5 sum of the object content)"
   value       = module.object.s3_object_etag
